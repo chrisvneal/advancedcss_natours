@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chrisvneal/advancedcss_natours/issues"
   },
-  "homepage": "https://github.com/chrisvneal/advancedcss_natours#readme"
+  "homepage": "https://github.com/chrisvneal/advancedcss_natours#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
