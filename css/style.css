@@ -179,6 +179,9 @@ body {
     .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
+    .composition__photo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5); }
 
 .row {
   max-width: 114rem;
