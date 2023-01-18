@@ -429,7 +429,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 0;
-  top: 0; }
+  top: -0.4rem; }
   .form__radio-button::after {
     content: "";
     height: 1.4rem;
@@ -439,7 +439,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #55c57a; }
+    background-color: #55c57a;
+    opacity: 0; }
 
 .row {
   max-width: 114rem;
