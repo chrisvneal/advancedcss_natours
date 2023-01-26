@@ -27,8 +27,6 @@
       $color-primary-dark
     );
     z-index: 1000;
-
-    // transform: scale(80);
   }
 
   &__nav {
@@ -81,5 +79,9 @@
       color: $color-primary;
       transform: translateX(1rem);
     }
+  }
+
+  &__checkbox:checked ~ &__background {
+    transform: scale(80);
   }
 }
