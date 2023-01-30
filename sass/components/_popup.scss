@@ -5,7 +5,14 @@
   top: 0;
   left: 0;
   background-color: rgba($color-black, 0.8);
+  z-index: 2500;
 
   &__content {
+    @include center-hor-vert;
+
+    width: 75%;
+    background-color: $color-white;
+    height: 50rem;
+    box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
   }
 }
