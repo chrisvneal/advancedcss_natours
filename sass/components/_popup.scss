@@ -15,16 +15,18 @@
     height: 50rem;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     border-radius: 3px;
+    display: table;
   }
 
   &__left {
     width: 33.33333%;
-    float: left;
+    display: table-cell;
   }
 
   &__right {
     width: 66.6666667%;
-    float: left;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   &__img {
