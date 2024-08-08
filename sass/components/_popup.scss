@@ -6,8 +6,14 @@
   left: 0;
   background-color: rgba($color-black, 0.8);
   z-index: 2500;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
 
-  display: none;
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
 
   &__content {
     @include center-hor-vert;
